@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./mensaje1.js ./mensaje2.js ./mensaje3.js",
+    "dev": "webpack ./mensaje1.js ./mensaje2.js ./mensaje3.js",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
